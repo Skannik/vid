@@ -10,7 +10,7 @@ COPY client/package*.json ./client/
 COPY server/package*.json ./server/
 
 # Install dependencies
-RUN npm run install-deps
+RUN npm install
 
 # Copy the rest of the application
 COPY . .

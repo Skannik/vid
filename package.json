@@ -1,9 +1,10 @@
 {
   "name": "vidtalk",
   "version": "1.0.0",
-  "description": "A Discord clone with local functionality",
+  "description": "Vidtalk with local functionality",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "client": "cd client && npm start",
     "server": "cd server && npm run dev",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
@@ -11,7 +12,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "discord-clone",
     "chat",
     "webrtc",
     "socket.io"
